@@ -1,0 +1,16 @@
+.btn {
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    width: 120px;
+    height: 27px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid black
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+

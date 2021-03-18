@@ -1,0 +1,38 @@
+<div class="form-wrap">
+    <div class="tabs">
+        <link rel="icon" href="./Styles/f.logo.icon.green.jpg">
+        <title>Fonts - Opret Konto</title>
+        <link rel="stylesheet" href="Styles/Login-Scripts/Opret-Scripts/opret-Style.css"/>
+        <h3 class="signup-tab"><a class="active" href="Opret.html">Opret Konto</a></h3>
+        <h3 class="login-tab"><a href="login.html">Login</a></h3>
+    </div>
+
+    <div class="tabs-content">
+        <div id="signup-tab-content" class="active">
+            <form class="signup-form" action="" method="post">
+                <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Brugernavn">
+                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Kodeord">
+                <input type="submit" class="button" value="Opret">
+            </form>
+            <div class="help-text">
+                <p>Ved at opret dig en konto, accepterer du vores</p>
+                <p><a href="Terms of service.html">Terms of service</a></p>
+            </div>
+        </div>
+
+        <div id="login-tab-content">
+            <form class="login-form" action="" method="post">
+                <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
+                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                <input type="checkbox" class="checkbox" id="remember_me">
+                <label for="remember_me">Husk mig</label>
+
+                <input type="submit" class="button" value="Login">
+            </form>
+            <div class="help-text">
+                <p><a href="#">Har du glemt dit kodeord?</a></p>
+            </div>
+        </div>
+    </div>
+</div>
